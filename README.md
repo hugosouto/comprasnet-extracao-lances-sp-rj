@@ -32,6 +32,7 @@ Instale as dependências necessárias:
 pip install -r requirements.txt
 
 '''
+
 ## Utilização
 
 Para executar o notebook, inicie o Jupyter Notebook:
@@ -41,7 +42,11 @@ jupyter notebook
 
 '''
 
-Acesse o notebook `Comprasnet_Extracao_Lances.ipynb` e siga as instruções lá contidas.
+Acesse o notebook `[label](comprasnet_extracao_lances.ipynb)` e siga as instruções lá contidas.
+
+### Dados
+
+Os dados utilizados nesse repositórios podem ser baixados em https://repositorio.dados.gov.br/seges/lances_pregao/.
 
 ## Licença
 
