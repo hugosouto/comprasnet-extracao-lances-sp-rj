@@ -1,0 +1,11 @@
+[package]
+name = "comprasnet-extracao-lances-sp-rj"
+version = "0.1.0"
+authors = ["Your Name <hugo.souto@gestao.gov.br>"]
+edition = "2023"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.24"
+polars = { version = "0.28.0", features = ["describe", "lazy", "ndarray", "object", "dtype-struct", "concat_str", "mode"] }
